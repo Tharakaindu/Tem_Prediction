@@ -5,7 +5,7 @@ import pandas as pd
 
 # Load models
 model_heel = joblib.load(r'model_rf.joblib')
-model_soft = joblib.load(r'C:\Users\jfernand3\Documents\temparature\model_rf_Soft.joblib')
+model_soft = joblib.load(r'model_rf_Soft.joblib')
 model_tread = joblib.load(r'C:\Users\jfernand3\Documents\temparature\model_rf_thread.joblib')
 
 # Function to convert duration in HH:MM:SS format to seconds
