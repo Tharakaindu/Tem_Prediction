@@ -63,7 +63,7 @@ st.set_page_config(page_title="Tyre Curing Cycle Temperature Prediction", layout
 st.title("Tyre Curing Cycle Temperature Prediction")
 
 # Load background image
-background_image = st.image(r'C:\Users\jfernand3\Documents\temparature\2-slide-proxima.png', use_column_width=True)
+background_image = st.image(r'2-slide-proxima.png', use_column_width=True)
 
 # Define columns layout
 col1, col2, col3 = st.columns(3)
